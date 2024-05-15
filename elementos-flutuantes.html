@@ -15,46 +15,40 @@
 
   <body style="margin-bottom: 200px; padding: 16px;">
 
-    <!-- Parágrafo justificado -->
-    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+    <!-- Elementos flutuantes -->
+    <div style="" class="">
+        <div class="">Float Left</div>
+        <div class="">Float Right</div>
+    </div>
 
-    <br>
-    <br>
+    <!-- Posicionamento fixo - top e bottom -->
+    <h1 class="">Título do conteúdo fixo</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
 
     <!-- 
-        Alinhamento responsivo - text-<tela>-<alinhamento>
-        class text-<tela>-<alinhamento>
-        tela: sm, md, lg, xl
-        alinhamento: left, center, right
-     -->
-    <p class="text-sm-right">tela &gt;= 576px</p><!--Small-->
-    <p class="text-md-right">tela &gt;= 768px</p><!--Medium-->
-    <p class="text-lg-right">tela &gt;= 992px</p><!--Large-->
-    <p class="text-xl-right">tela &gt;= 1200px</p><!--Extra Large-->
+        Float responsivo - float-<tela>-<direcao>
+            tela: sm, md, lg, xl
+            alinhamento: left, right
+    -->
+    <div class="">tela &gt;= 576px * </div><!--Small-->
+    <div class="">tela &gt;=  768px * </div><!--Medium-->
+    <div class="">tela &gt;= 992px * </div><!--Large-->
+    <div class="">tela &gt;= 1200px * </div><!--Extra Large-->
 
-    <br>
-    <br>
 
-    <!-- Elemento Block para inline -->
-    <h1 class="bg-success d-inline">Lorem ipsum dolor</h1>
-    <p class="bg-success d-inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
 
-    <br>
-    <br>
+    <!-- Colar no topo (sticky) -->
+    <ul class="list-inline">
+      <li class="list-inline-item">Item 1</li>
+      <li class="list-inline-item">Item 2</li>
+      <li class="list-inline-item">Item 3</li>
+    </ul>
 
-    <!-- Elemento Inline para Block -->
-    <span class="bg-success d-block">Lorem ipsum dolor 1</span> <br>
-    <span class="bg-success d-block">Lorem ipsum dolor 2</span>
-
-    <br>
-    <br>
-
-    <!-- Elemento Inline inline-Block -->
-    <div class="bg-warning">
-        <h3 class="bg-success d-inline-block">Lorem ipsum</h3>
-        <h3 class="bg-success d-inline-block" style="margin-top: 50px; width: 400px;">Lorem ipsum dolor</h3>
-    </div>
+    <h1>Título do conteúdo</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
     
 
 
